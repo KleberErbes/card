@@ -1,0 +1,106 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Fundo geral */
+body {
+  background: radial-gradient(circle, #1a1a2e, #0D0D12);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.card {
+  width: 340px;
+  padding: 20px;
+  border-radius: 20px;
+
+  background: linear-gradient(145deg, #2C1E3F, #1F3D3A);
+  border: 1px solid #D4AF37;
+
+  color: #fff;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  transition: all 0.3s ease;
+}
+
+/* Hover mágico */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #3ECF8E, 0 0 40px rgba(62,207,142,0.3);
+}
+
+/* Imagem */
+.card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  border: 2px solid #D4AF37;
+}
+
+/* Título */
+.card h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #D4AF37;
+  text-align: center;
+}
+
+/* Descrição */
+.descricao {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #A8FFDC;
+  text-align: center;
+}
+
+/* Seções */
+.habilidades, .caracteristicas {
+  margin-top: 15px;
+}
+
+/* Subtítulos */
+h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #ffffff;
+  border-bottom: 1px solid #D4AF37;
+  padding-bottom: 5px;
+}
+
+/* Lista */
+.habilidades ul {
+  list-style: none;
+}
+
+.habilidades li {
+  background: #6B1E2F;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+/* Características */
+.caracteristicas p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Destaque */
+strong {
+  color: #3ECF8E;
+}
